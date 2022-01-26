@@ -2,7 +2,6 @@
 # Goal: “Create a Budget class that can instantiate objects based on different budget categories like food, clothing, and entertainment. 
 # These objects should allow for depositing and withdrawing funds from each category, 
 # as well computing category balances and transferring balance amounts between categories”
-
 class Budget:
     def food(indep):
         Total = 100
@@ -13,7 +12,8 @@ class Budget:
         total = 100
         total = total - inwith
         return total
-
+#####
+#####create seperate area for balance and call deposits and withdraw to it and then call this to show updated totals
 
 
     #def clothing():
